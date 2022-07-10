@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function prime(){
+            var s=prompt("enter a number to start")
+            var l=prompt("enter a number to end")
+
+            for (var i=s;i<=l;i++){
+              var flag=0
+
+            for(var j=2;j<i;j++){
+                if(j%i==0){
+                    flag=1;
+                    break;
+                }
+              else{
+                document.write(i+" ")
+              }
+            }
+        }
+    }
+       document.write(prime())
+
+    </script>
+</body>
+</html>
