@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background: linear-gradient(to right,#f709af,#e9ec0a,#4316e2);  
+      }
+      p{
+          color: red;
+          font-weight: bold;
+          font-size: large;
+      }
+      h1{
+        text-transform:uppercase;
+        text-align: center;
+        color: rgb(14, 6, 136);
+      }
+      .container{
+        font-weight: bold;
+        margin-left: 500px;
+      }
+      #bt{
+        align-items: center;
+      }
+    </style>
+</head>
+<body>
+    <h1>Price discount</h1>
+<div class="container">
+  <label for="Product name">Product name :</label>
+  <input type="text" id="name"><br><br>
+  <label for="price">price  :</label>
+  <input type="text" id="pr" ><br><br>
+
+  <label for="cars">Choose season:</label>
+  <select name="cars" id="ch">
+    <option id="1">summer sale</option>
+    <option id="2">onam sale</option>
+    <option id="3">winter sale</option>
+  </select><br><br><br>
+
+  <button onclick="pri()" id="bt">Check</button> 
+      <p id="m1"></p> 
+      <p id="m"></p> 
+</div>
+<script src="p.js"></script>
+</body>
+</html>
